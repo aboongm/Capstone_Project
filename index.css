@@ -432,4 +432,26 @@ a {
   .left-margin {
     margin-left: 3rem !important;
   }
+
+  .hamburger {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 20px;
+  }
+
+  .flex-program {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
