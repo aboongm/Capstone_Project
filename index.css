@@ -399,12 +399,7 @@ a {
   padding-top: 5px;
 }
 
-.logo:hover {
-  box-shadow: 5px 10px 8px #888;
-  transform: scale(1.01);
-}
-
-.logo-1:hover {
+.w-max-1:hover {
   box-shadow: 5px 10px 8px #888;
   transform: scale(1.01);
 }
