@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'cocogoose';
-  src: url('/assets/font/cocogoose/cocogoose_pro_light-webfont.woff') format('woff2');
-  src: url('/assets/fonts/cocogoose/cocogoose_pro_light-webfont.woff') format('woff');
+  src: url('./assets/font/cocogoose/cocogoose_pro_light-webfont.woff') format('woff2');
+  src: url('./assets/fonts/cocogoose/cocogoose_pro_light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -160,7 +160,7 @@ a {
 }
 
 .main-bg {
-  background-image: url('/assets/main-bg.png');
+  background-image: url('./assets/main-bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -208,7 +208,7 @@ a {
 .program-bg {
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
-  background-image: url('/assets/pattern_bg.png');
+  background-image: url('./assets/pattern_bg.png');
 }
 
 .program-section {
