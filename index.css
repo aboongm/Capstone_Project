@@ -405,6 +405,16 @@ a {
   padding-top: 5px;
 }
 
+.logo:hover {
+  box-shadow: 5px 10px 8px #888;
+  transform: scale(1.01);
+}
+
+.logo-1:hover {
+  box-shadow: 5px 10px 8px #888;
+  transform: scale(1.01);
+}
+
 @media screen and (min-width: 768px) {
   #top-panel {
     background-color: #3e3e3e;
@@ -520,5 +530,13 @@ a {
     font-weight: bold;
     text-align: left;
     color: #e1e1e1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0 20px;
   }
 }
