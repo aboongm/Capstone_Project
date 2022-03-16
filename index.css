@@ -165,3 +165,48 @@ a {
   background-size: cover;
   border: 1px solid rgba(39, 42, 50, 0.24);
 }
+
+.main-about-bg {
+  background-image: url('/assets/eLearning_main.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.message-1,
+.message-2,
+.message-3,
+.message-4 {
+  text-align: center;
+  margin: 15px 0 40px 0;
+  line-height: 160%;
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+.message-1 {
+  font-family: 'cocogoose', sans-serif;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 248);
+}
+
+.message-2 {
+  font-family: 'cocogoose', sans-serif;
+  background-color: rgba(247, 247, 248, 0.65);
+}
+
+.message-3 {
+  font-family: 'poppins', sans-serif;
+  background-color: rgba(247, 247, 248, 0.65);
+}
+
+.message-4 {
+  font-family: 'cocogoose', sans-serif;
+}
+
+.date-info {
+  font: bold 32px Verdana, sans-serif;
+  color: rgb(87, 87, 87);
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
