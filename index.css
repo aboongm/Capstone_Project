@@ -454,4 +454,39 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .toggle-1 {
+    display: block !important;
+  }
+
+  .toggle-2 {
+    display: none;
+  }
+
+  .toggle-3 {
+    display: block !important;
+  }
+
+  .text-card-1 {
+    font-family: cocogoose, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .text-card-2 {
+    font-family: cocogoose, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .p-top {
+    padding-top: 2rem !important;
+    background: none !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
 }
