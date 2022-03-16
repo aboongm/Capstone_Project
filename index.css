@@ -404,3 +404,32 @@ a {
   color: #000;
   padding-top: 5px;
 }
+
+@media screen and (min-width: 768px) {
+  #top-panel {
+    background-color: #3e3e3e;
+    width: 100%;
+    display: block;
+  }
+
+  .logo {
+    display: block !important;
+  }
+
+  .nav-ul {
+    display: flex !important;
+  }
+
+  .nav-text {
+    font-family: 'cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .left-margin {
+    margin-left: 3rem !important;
+  }
+}
