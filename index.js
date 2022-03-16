@@ -80,3 +80,24 @@ const speakerList = [
     style: 'toggle',
   },
 ];
+
+const speakers = document.querySelector('#speaker-list');
+
+Array.from(speakers.children).forEach((item, index) => {
+  item.innerHTML = `
+    <div class="speaker-img">
+        <img src="${speakerList[index].image}" alt="Yochai Bankler" />
+    </div>
+    <div>
+      <div >
+          <a href="/" class="name">${speakerList[index].name}</a>
+      </div>
+      <div class="organize text-danger my-2">
+      ${speakerList[index].expertise}
+      </div>
+      <div class="speaker-description mt-4">
+      ${speakerList[index].description}
+      </div>
+    </div>
+  `;
+});
