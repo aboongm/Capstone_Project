@@ -31,7 +31,7 @@ const speakerList = [
     expertise: 'Developer and Lead Instructor',
     description:
       "I'm Angela, I'm a developer with a passion for teaching. I'm the lead instructor at the London App Brewery, London's leading Programming Bootcamp. I've helped hundreds of thousands of students learn to code and change their lives by becoming a developer.",
-    image: '/assets/capstone/angela-yu.png',
+    image: '/assets/images/angela-yu.png',
     style: '',
   },
   {
@@ -40,7 +40,7 @@ const speakerList = [
     expertise: 'Online Coding Tutor & Net Ninja',
     description:
       "Hey gang, my name's Shaun and since a young age I've had an obsession for nearly anything tech-related. I've been coding since about the age of fifteen (half of my life, now...phew!) and work as a full-stack web developer and online instructor.",
-    image: '/assets/capstone/shaun-pelling.png',
+    image: '/assets/images/shaun-pelling.png',
     style: '',
   },
   {
@@ -49,7 +49,7 @@ const speakerList = [
     expertise: 'A Full-stack Developer & Teacher',
     description:
       "I'm Andrew, a full-stack developer! I launched my first course in years ago and had a blast teaching and helping others. I currently teach JavaScript, React, and Node.",
-    image: '/assets/capstone/andrew.png',
+    image: '/assets/images/andrew.png',
     style: 'toggle',
   },
   {
@@ -58,7 +58,7 @@ const speakerList = [
     expertise: 'Online Educator',
     description:
       "Bundling the courses and know how of successful instructors, Academind strives to deliver high quality online education. Online Education, Real-Life Success - that's what Academind stands for. Learn topics like web development, data analyses and more in a fun and engaging way.",
-    image: '/assets/capstone/maximillian.png',
+    image: '/assets/images/maximillian.png',
     style: 'toggle',
   },
   {
@@ -67,7 +67,7 @@ const speakerList = [
     expertise: 'Web Developer And Teacher',
     description:
       "Hi! I'm Rob. I have a degree in Mathematics from Cambridge University and you might call me a bit of coding geek. After building websites for friends and family for fun, I soon learned that web development was a very lucrative career choice. I gave up my successful (and sometimes stressful) job as a teacher to work part time and today, couldn't be happier.",
-    image: '/assets/capstone/rob-perceival.png',
+    image: '/assets/images/rob-perceival.png',
     style: 'toggle',
   },
   {
@@ -76,7 +76,7 @@ const speakerList = [
     expertise: 'Web Developer, Designer, and Teacher',
     description:
       "'m a full-stack web developer and designer with a passion for building beautiful things from scratch. I've been building websites and apps and also have a Master's degree in Engineering.",
-    image: '/assets/capstone/jonas.png',
+    image: '/assets/images/jonas.png',
     style: 'toggle',
   },
 ];
@@ -107,7 +107,6 @@ more.addEventListener('click', () => {
   // e.preventDefault();
   const elems = document.querySelectorAll('.toggle-1');
   elems.forEach((item) => {
-    console.log(elems);
     item.classList.remove('toggle-1');
   });
   more.classList.add('hide');
