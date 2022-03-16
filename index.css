@@ -404,3 +404,121 @@ a {
   color: #000;
   padding-top: 5px;
 }
+
+@media screen and (min-width: 768px) {
+  #top-panel {
+    background-color: #3e3e3e;
+    width: 100%;
+    display: block;
+  }
+
+  .logo {
+    display: block !important;
+  }
+
+  .nav-ul {
+    display: flex !important;
+  }
+
+  .nav-text {
+    font-family: 'cocogoose', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .left-margin {
+    margin-left: 3rem !important;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 20px;
+  }
+
+  .flex-program {
+    display: grid;
+    grid-template-columns: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .toggle-1 {
+    display: block !important;
+  }
+
+  .toggle-2 {
+    display: none;
+  }
+
+  .toggle-3 {
+    display: block !important;
+  }
+
+  .text-card-1 {
+    font-family: cocogoose, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 2rem;
+    text-align: center;
+  }
+
+  .text-card-2 {
+    font-family: cocogoose, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  .p-top {
+    padding-top: 2rem !important;
+    background: none !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .w-max-3 {
+    max-width: 600px;
+  }
+
+  .grid-4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .bg-footer {
+    background-color: rgb(235, 235, 235);
+  }
+
+  .bg-footer-about {
+    background-color: black;
+  }
+
+  .grid-5 {
+    display: grid;
+    grid-template-columns: 34% 66%;
+    text-align: center;
+    padding: 32px 0 !important;
+  }
+
+  .copyright {
+    font-family: 'cocogoose', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    color: #e1e1e1;
+  }
+}
