@@ -3,7 +3,8 @@
 
 @font-face {
   font-family: 'cocogoose';
-  src: url('/assets/cocogoose/fonts/cocogoose_pro_light-webfont.woff') format('woff2');
+  src: url('/assets/font/cocogoose/cocogoose_pro_light-webfont.woff') format('woff2');
+  src: url('/assets/fonts/cocogoose/cocogoose_pro_light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -166,13 +167,6 @@ a {
   border: 1px solid rgba(39, 42, 50, 0.24);
 }
 
-.main-about-bg {
-  background-image: url('/assets/eLearning_main.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
 .message-1,
 .message-2,
 .message-3,
@@ -214,7 +208,7 @@ a {
 .program-bg {
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
-  background-image: url('/assets/capstone/pattern_bg.png');
+  background-image: url('/assets/pattern_bg.png');
 }
 
 .program-section {
@@ -405,14 +399,13 @@ a {
   padding-top: 5px;
 }
 
-.logo:hover {
+.w-max-1:hover {
   box-shadow: 5px 10px 8px #888;
   transform: scale(1.01);
 }
 
-.logo-1:hover {
-  box-shadow: 5px 10px 8px #888;
-  transform: scale(1.01);
+a:focus {
+  color: rgb(190, 190, 190);
 }
 
 @media screen and (min-width: 768px) {
@@ -530,6 +523,11 @@ a {
     font-weight: bold;
     text-align: left;
     color: #e1e1e1;
+  }
+
+  a:focus {
+    color: rgb(190, 190, 190);
+    font-weight: 900;
   }
 }
 
