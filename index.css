@@ -271,3 +271,69 @@ a {
   height: 2px;
   background-color: #be4d5a;
 }
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.flex-speaker {
+  display: block;
+}
+
+.speaker-list {
+  overflow: auto;
+  height: auto;
+}
+
+.speaker-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.speaker {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  margin-left: 0;
+}
+
+.name {
+  font-family: cocogoose, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 5px;
+  font-weight: bolder;
+  color: #3e3e3e;
+}
+
+.organize {
+  font-family: cocogoose, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  text-align: left;
+}
+
+.speaker-description {
+  font-family: cocogoose, sans-serif;
+  word-break: keep-all;
+  text-align: left;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.partner-bg {
+  background-repeat: repeat;
+  background-color: rgb(62, 65, 67);
+}
+
+.text-partner {
+  color: #e1e1e1;
+}
