@@ -2,7 +2,7 @@
 
 # Project Name
 
-### Capstone Project
+### Capstone Project - Online Web Development Courses Website
 
 ## Built With
 
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://aboongm.github.io/Capstone-Project/)
+[Live Demo Link](https://aboongm.github.io/Capstone_Project/)
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ To get a local copy up and running, follow these simple steps.
 
 Run the following commands on the terminal of your local machine:
 
-- git clone git@github.com:aboongm/Capstone-Project.git
+- git clone https://github.com/aboongm/Capstone_Project.git
 - cd Capstone-Project
 
 ## Authors
