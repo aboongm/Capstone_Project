@@ -101,3 +101,15 @@ Array.from(speakers.children).forEach((item, index) => {
     </div>
   `;
 });
+
+const more = document.querySelector('#more');
+more.addEventListener('click', () => {
+  // e.preventDefault();
+  const elems = document.querySelectorAll('.toggle-1');
+  elems.forEach((item) => {
+    console.log(elems);
+    item.classList.remove('toggle-1');
+  });
+  more.classList.add('hide');
+  more.classList.remove('toggle-2');
+});
