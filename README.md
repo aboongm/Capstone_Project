@@ -15,7 +15,7 @@
 
 [Live Demo Link](https://aboongm.github.io/Capstone_Project/)
 
-[Loom Video Link](https://www.loom.com/share/efdf5b06e57844d5be402f7b1c4471fe)
+[Loom Video Link](https://www.loom.com/share/086da32123974a9b81d2d4ba08932616)
 
 ## Getting Started
 
