@@ -23,12 +23,20 @@ cancel.addEventListener('click', () => {
   cancel.classList.add('hide');
 });
 
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 768) {
+    hamburger.classList.remove('hide');
+    navigation.classList.remove('show');
+    cancel.classList.add('hide');
+  }
+});
+
 // speaker list
 const speakerList = [
   {
     id: 'speaker-1',
     name: 'Angela Yu',
-    expertise: 'Developer and Lead Instructor',
+    expertise: 'Developer And Lead Instructor',
     description:
       "I'm Angela, I'm a developer with a passion for teaching. I'm the lead instructor at the London App Brewery, London's leading Programming Bootcamp. I've helped hundreds of thousands of students learn to code and change their lives by becoming a developer.",
     image: '/assets/images/angela-yu.png',
@@ -37,7 +45,7 @@ const speakerList = [
   {
     id: 'speaker-2',
     name: 'Shaun Pelling',
-    expertise: 'Online Coding Tutor & Net Ninja',
+    expertise: 'Online Coding Tutor And Net Ninja',
     description:
       "Hey gang, my name's Shaun and since a young age I've had an obsession for nearly anything tech-related. I've been coding since about the age of fifteen (half of my life, now...phew!) and work as a full-stack web developer and online instructor.",
     image: '/assets/images/shaun-pelling.png',
@@ -46,7 +54,7 @@ const speakerList = [
   {
     id: 'speaker-3',
     name: 'Andrew Mead',
-    expertise: 'A Full-stack Developer & Teacher',
+    expertise: 'A Full-stack Developer And Teacher',
     description:
       "I'm Andrew, a full-stack developer! I launched my first course in years ago and had a blast teaching and helping others. I currently teach JavaScript, React, and Node.",
     image: '/assets/images/andrew.png',

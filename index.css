@@ -3,8 +3,8 @@
 
 @font-face {
   font-family: 'cocogoose';
-  src: url('/assets/font/cocogoose/cocogoose_pro_light-webfont.woff') format('woff2');
-  src: url('/assets/fonts/cocogoose/cocogoose_pro_light-webfont.woff') format('woff');
+  src: url('./assets/font/cocogoose/cocogoose_pro_light-webfont.woff') format('woff2');
+  src: url('./assets/fonts/cocogoose/cocogoose_pro_light-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -160,7 +160,7 @@ a {
 }
 
 .main-bg {
-  background-image: url('/assets/main-bg.png');
+  background-image: url('./assets/main-bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -175,45 +175,76 @@ a {
   margin: 15px 0 40px 0;
   line-height: 160%;
   padding: 10px 16px;
-  font-size: 14px;
 }
 
 .message-1 {
   font-family: 'cocogoose', sans-serif;
   border: 4px solid rgb(255, 255, 255);
   background-color: rgb(247, 247, 248);
+  font-size: 11px;
+  font-weight: normal;
+  color: #404040;
+  line-height: 23px;
 }
 
 .message-2 {
   font-family: 'cocogoose', sans-serif;
-  background-color: rgba(247, 247, 248, 0.65);
+  font-size: 10px;
+  font-weight: normal;
+  color: #333;
+  background-color: rgb(213, 213, 216);
 }
 
 .message-3 {
-  font-family: 'poppins', sans-serif;
-  background-color: rgba(247, 247, 248, 0.65);
+  font-family: sans-serif, Helvetica;
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+  background-color: rgb(213, 213, 216);
+  text-decoration: underline;
 }
 
 .message-4 {
   font-family: 'cocogoose', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #7a7a7a;
 }
 
 .date-info {
-  font: bold 32px Verdana, sans-serif;
+  font: bold 22px Verdana, sans-serif;
   color: rgb(87, 87, 87);
   letter-spacing: -2px;
   margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.locate {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 11px;
+  padding: 10px;
+  font-weight: bold;
+  color: #3e3e3e;
 }
 
 .program-bg {
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
-  background-image: url('/assets/pattern_bg.png');
+  background-image: url('./assets/pattern_bg.png');
 }
 
 .program-section {
+  display: grid;
+  grid-template-columns: 15% 30% 55%;
+  align-items: center;
+  justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.15);
   transition: all 0.3s ease-in-out;
+}
+
+.program-section:hover {
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .grid {
@@ -222,26 +253,19 @@ a {
   padding: 0 20px;
 }
 
-.flex-program {
-  display: grid;
-  grid-template-columns: 15% 35% 50%;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .text-card-1 {
   font-family: cocogoose, sans-serif;
-  font-size: 1.2rem;
+  font-size: 12px;
   font-weight: normal;
-  line-height: 2rem;
+  line-height: 16px;
   text-align: left;
 }
 
 .text-card-2 {
   font-family: cocogoose, sans-serif;
-  font-size: 14px;
+  font-size: 9px;
   font-weight: normal;
-  line-height: 1.5rem;
+  line-height: 16px;
   text-align: left;
 }
 
@@ -251,8 +275,8 @@ a {
 }
 
 .img-1 {
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 40px;
+  max-height: 100%;
 }
 
 .img-2 {
@@ -260,8 +284,13 @@ a {
   height: 100%;
 }
 
+.img-3 {
+  width: 100px;
+  height: auto;
+}
+
 .guide-line {
-  width: 4rem;
+  width: 2rem;
   height: 2px;
   background-color: #be4d5a;
 }
@@ -296,7 +325,7 @@ a {
 
 .name {
   font-family: cocogoose, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
   margin-top: 5px;
   font-weight: bolder;
@@ -306,7 +335,8 @@ a {
 .organize {
   font-family: cocogoose, sans-serif;
   font-style: italic;
-  font-size: 12px;
+  font-size: 9px;
+  font-weight: bold;
   text-align: left;
 }
 
@@ -314,8 +344,8 @@ a {
   font-family: cocogoose, sans-serif;
   word-break: keep-all;
   text-align: left;
-  font-size: 11px;
-  line-height: 20px;
+  font-size: 9px;
+  line-height: 14px;
 }
 
 .grid-3 {
@@ -328,7 +358,7 @@ a {
   background-color: rgb(62, 65, 67);
 }
 
-.text-partner {
+.text-color {
   color: #e1e1e1;
 }
 
@@ -376,7 +406,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 14px;
 }
 
 .bg-footer,
@@ -392,16 +422,20 @@ a {
 
 .copyright {
   font-family: 'cocogoose', sans-serif;
-  font-size: 12px;
+  font-size: 9px;
   font-weight: normal;
   text-align: left;
-  color: #000;
+  color: #7a7a7a;
   padding-top: 5px;
 }
 
 .w-max-1:hover {
   box-shadow: 5px 10px 8px #888;
   transform: scale(1.01);
+}
+
+a:hover {
+  color: rgb(190, 190, 190);
 }
 
 a:focus {
@@ -427,9 +461,9 @@ a:focus {
     font-family: 'cocogoose', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 20px;
-    color: #344563;
+    color: #3e3e3e;
   }
 
   .left-margin {
@@ -442,13 +476,13 @@ a:focus {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0 20px;
   }
 
-  .flex-program {
-    display: grid;
-    grid-template-columns: 100%;
+  .program-section {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
@@ -471,18 +505,18 @@ a:focus {
   }
 
   .text-card-1 {
-    font-family: cocogoose, sans-serif;
-    font-size: 1.2rem;
+    /* font-family: cocogoose, sans-serif;
+    font-size: 12px;
     font-weight: normal;
-    line-height: 2rem;
+    line-height: 16px; */
     text-align: center;
   }
 
   .text-card-2 {
-    font-family: cocogoose, sans-serif;
-    font-size: 14px;
+    /* font-family: cocogoose, sans-serif;
+    font-size: 9px;
     font-weight: normal;
-    line-height: 1.5rem;
+    line-height: 16px; */
     text-align: center;
   }
 
@@ -518,11 +552,18 @@ a:focus {
   }
 
   .copyright {
-    font-family: 'cocogoose', sans-serif;
+    /* font-family: 'cocogoose', sans-serif;
     font-size: 12px;
     font-weight: bold;
     text-align: left;
-    color: #e1e1e1;
+    color: #e1e1e1; */
+
+    font-family: 'cocogoose', sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    text-align: left;
+    color: #7a7a7a;
+    padding-top: 5px;
   }
 
   a:focus {

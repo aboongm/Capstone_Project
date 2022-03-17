@@ -15,6 +15,8 @@
 
 [Live Demo Link](https://aboongm.github.io/Capstone_Project/)
 
+[Loom Video Link](https://www.loom.com/share/086da32123974a9b81d2d4ba08932616)
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
