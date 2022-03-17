@@ -23,6 +23,14 @@ cancel.addEventListener('click', () => {
   cancel.classList.add('hide');
 });
 
+// window.addEventListener('resize', () => {
+//     if (window.innerWidth > 768) {
+//     hamburger.classList.remove('hide');
+//     navigation.classList.remove('show');
+//     cancel.classList.add('hide');
+//   }
+// });
+
 // speaker list
 const speakerList = [
   {
