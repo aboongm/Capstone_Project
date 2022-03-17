@@ -216,6 +216,11 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+.program-section:hover {
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr;
