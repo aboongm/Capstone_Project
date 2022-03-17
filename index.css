@@ -215,12 +215,12 @@ a {
   font: bold 22px Verdana, sans-serif;
   color: rgb(87, 87, 87);
   letter-spacing: -2px;
-  margin-bottom: 10px px;
+  margin-bottom: 10px;
   padding: 0 10px;
 }
 
 .locate {
-  font-family: 'cocogoose';
+  font-family: 'cocogoose', sans-serif;
   font-size: 11px;
   padding: 10px;
   font-weight: bold;
@@ -276,7 +276,7 @@ a {
 
 .img-1 {
   max-width: 40px;
-  max-height: auto;
+  max-height: 100%;
 }
 
 .img-2 {
