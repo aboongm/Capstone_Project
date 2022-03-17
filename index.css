@@ -212,6 +212,10 @@ a {
 }
 
 .program-section {
+  display: grid;
+  grid-template-columns: 20% 30% 50%;
+  align-items: center;
+  justify-content: space-between;
   background-color: rgba(255, 255, 255, 0.15);
   transition: all 0.3s ease-in-out;
 }
@@ -227,16 +231,9 @@ a {
   padding: 0 20px;
 }
 
-.flex-program {
-  display: grid;
-  grid-template-columns: 15% 35% 50%;
-  align-items: center;
-  justify-content: space-between;
-}
-
 .text-card-1 {
   font-family: cocogoose, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: normal;
   line-height: 2rem;
   text-align: left;
@@ -244,7 +241,7 @@ a {
 
 .text-card-2 {
   font-family: cocogoose, sans-serif;
-  font-size: 14px;
+  font-size: 0.7rem;
   font-weight: normal;
   line-height: 1.5rem;
   text-align: left;
@@ -451,13 +448,13 @@ a:focus {
 
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 0 20px;
   }
 
-  .flex-program {
-    display: grid;
-    grid-template-columns: 100%;
+  .program-section {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
@@ -481,18 +478,20 @@ a:focus {
 
   .text-card-1 {
     font-family: cocogoose, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: normal;
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: center;
+    /* padding: 10px 0 9px 0; */
   }
 
   .text-card-2 {
     font-family: cocogoose, sans-serif;
-    font-size: 14px;
+    font-size: 0.7rem;
     font-weight: normal;
     line-height: 1.5rem;
     text-align: center;
+    /* padding: 1.5rem auto 1rem auto !important; */
   }
 
   .p-top {
